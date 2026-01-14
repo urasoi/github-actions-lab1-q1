@@ -14,11 +14,12 @@ jobs:
         python-version: 3.11
 
     - name: ls
-      run: ls; pwd; ls -l
+      run: ls; pwd; ls -a;git pull
 
     - name: Install dependencies
       run: |
         pip install -r requirements.txt
+
 
 
 
